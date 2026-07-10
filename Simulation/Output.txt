@@ -1,0 +1,19 @@
+time is 0 | a is   0 | b is   0 | opcode is 000 | out is     0 | cout is 0
+time is 3000 | a is  45 | b is  38 | opcode is 000 | out is    83 | cout is 0
+time is 6000 | a is  45 | b is  38 | opcode is 001 | out is     7 | cout is 0
+time is 9000 | a is  45 | b is  38 | opcode is 010 | out is  1710 | cout is 0
+time is 12000 | a is  45 | b is  38 | opcode is 011 | out is  2880 | cout is 0
+time is 15000 | a is  45 | b is  38 | opcode is 100 | out is     0 | cout is 0
+time is 18000 | a is  45 | b is  38 | opcode is 101 | out is    36 | cout is 0
+time is 21000 | a is  45 | b is  38 | opcode is 110 | out is    47 | cout is 0
+time is 24000 | a is  45 | b is  38 | opcode is 111 | out is    11 | cout is 0
+time is 27000 | a is 255 | b is   1 | opcode is 000 | out is     0 | cout is 1
+time is 30000 | a is 255 | b is 255 | opcode is 001 | out is     0 | cout is 0
+time is 33000 | a is   0 | b is   1 | opcode is 001 | out is 65535 | cout is 1
+time is 36000 | a is 255 | b is 255 | opcode is 010 | out is 65025 | cout is 0
+time is 39000 | a is 255 | b is   7 | opcode is 011 | out is 32640 | cout is 0
+time is 42000 | a is 255 | b is   7 | opcode is 100 | out is     1 | cout is 0
+time is 45000 | a is   0 | b is 255 | opcode is 101 | out is     0 | cout is 0
+time is 48000 | a is   0 | b is 255 | opcode is 110 | out is   255 | cout is 0
+time is 51000 | a is 255 | b is 255 | opcode is 111 | out is     0 | cout is 0
+$finish called at time : 56 ns
