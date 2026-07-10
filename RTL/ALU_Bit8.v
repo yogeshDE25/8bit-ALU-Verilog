@@ -23,9 +23,9 @@ module ALU_Bit8(
         
     3'b010:out = a * b; //multiplication
     
-    3'b011:out = a << b[2:0];//left shift
+    3'b011:out = {{8{1'b0}}, a} << b[3:0];//left shift
                 
-    3'b100:out= a >> b[2:0];//right shift
+    3'b100:out= {{8{1'b0}}, a} >> b[3:0];//right shift
       
     3'b101:out = a & b;//and
                        
